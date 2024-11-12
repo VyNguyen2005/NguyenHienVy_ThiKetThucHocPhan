@@ -3,13 +3,13 @@ import java.sql.*;
 
 public class DbContext {
     
-    private final String serverName = "localhost";
-    private final String dbName = "ShopDB";
-    private final String portNumber = "1433";  
-    private final String userID = "sa";
-    private final String password = "sa";
+    private static final String serverName = "localhost";
+    private static final String dbName = "ShopDB";
+    private static final String portNumber = "1433";  
+    private static final String userID = "sa";
+    private static final String password = "sa";
     
-    public Connection getConnection()
+    public static Connection getConnection()
     {
         Connection conn=null;
         try{ 
