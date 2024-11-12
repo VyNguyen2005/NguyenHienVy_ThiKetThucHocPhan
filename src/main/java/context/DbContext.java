@@ -7,7 +7,7 @@ public class DbContext {
     private final String dbName = "ShopDB";
     private final String portNumber = "1433";  
     private final String userID = "sa";
-    private final String password = "dltd";
+    private final String password = "sa";
     
     public Connection getConnection()
     {
