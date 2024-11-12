@@ -1,6 +1,6 @@
 <%@page contentType="text/html" pageEncoding="UTF-8"%>
 <footer class="container">
-            <strong>&copy; 2024 - Sinh viên thực hiện: MSSV - Họ tên </strong>
+            <strong>&copy; 2024 - Sinh viên thực hiện: 2321160060 - Nguyễn Hiền Vy </strong>
         </footer>
 
         <!-- Optional JavaScript -->
