@@ -36,21 +36,4 @@ public class TheLoaiDAO {
         }
         return ds;
     }
-    
-    public ArrayList<TheLoai> getByCategoryTenLoai(String tenloai) {
-        ArrayList<TheLoai> ds = new ArrayList<>();
-        String sql = "select * from TheLoai where tenloai=?";
-        conn = DbContext.getConnection();
-        try {
-            ps = conn.prepareStatement(sql);
-            ps.setString(1, tenloai);
-            rs = ps.executeQuery();
-            while (rs.next()) {
-                ds.add(new TheLoai(rs.getInt(1), rs.getString(2)));
-            }
-        } catch (Exception ex) {
-            System.out.println("Loi:" + ex.toString());
-        }
-        return ds;
-    }
 }
