@@ -26,6 +26,6 @@ public class DbContext {
     
     public static void main(String[] args)
     {
-        System.out.println("Ket Qua ket noi:" + new DbContext().getConnection());
+        System.out.println("Ket Qua ket noi:" + new DbContext().getConnection());        
     }
 }
